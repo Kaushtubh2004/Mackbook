@@ -1,30 +1,42 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import ProductViewer from './components/ProductViewer'
-import gsap from 'gsap';
-import { ScrollTrigger } from "gsap/all";
-import Showcase from './components/Showcase';
-import Performance from "./components/Performance.jsx";
-import Features from "./components/Features.jsx";
-import Highlights from "./components/Highlights.jsx";
-import Footer from "./components/Footer.jsx";
+import React, { useState } from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import ProductViewer from "./components/ProductViewer";
+import Showcase from "./components/Showcase";
+import Performance from "./components/Performance";
+import Features from "./components/Features";
+import Highlights from "./components/Highlights";
+import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 
-gsap.registerPlugin(ScrollTrigger)
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <ProductViewer/>
-    <Showcase/>
-    <Performance/>
-    <Features/>
-    <Highlights/>
-    <Footer/>
-    </>
-  )
-}
+      {loading && (
+        <Loader onComplete={() => setLoading(false)} />
+      )}
 
-export default App
+      {!loading && (
+        <>
+          <Navbar />
+          <Hero />
+          <ProductViewer />
+          <Showcase />
+          <Performance />
+          <Features />
+          <Highlights />
+          <Footer />
+        </>
+      )}
+    </>
+  );
+};
+
+export default App;

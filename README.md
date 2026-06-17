@@ -1,17 +1,162 @@
-# React + Vite
+# 💻 MacBook Pro Clone Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **MacBook Pro landing page clone** built with **React, Vite, Three.js, React Three Fiber, GSAP, and Tailwind CSS**. This project recreates Apple's premium product showcase experience with smooth animations, 3D models, responsive layouts, and high-performance rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* Interactive 3D MacBook Model
+* Smooth GSAP Animations
+* Responsive Design for All Devices
+* Realistic Product Showcase Experience
+* Optimized Performance with Vite
+* Modern UI Inspired by Apple
+* React 19 Component Architecture
+* State Management using Zustand
+* Mobile-Friendly Experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Mackbook
+### Frontend
+
+* React 19
+* Vite
+* Tailwind CSS 4
+
+### 3D Graphics
+
+* Three.js
+* React Three Fiber
+* React Three Drei
+
+### Animations
+
+* GSAP
+* @gsap/react
+
+### State Management
+
+* Zustand
+
+### Utilities
+
+* clsx
+* react-responsive
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+├── constants/
+├── store/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Kaushtubh2004/Mackbook.git
+```
+
+Move into the project directory:
+
+```bash
+cd macbook
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔨 Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile Devices
+
+---
+
+## ⚡ Performance Optimizations
+
+* Vite Fast Bundling
+* Optimized React Rendering
+* Efficient Three.js Scene Management
+* Lazy Loading Components
+* Hardware Accelerated Animations
+
+---
+
+## 📄 Project Screenshots
+
+[View Screenshots PDF](./public/screenshots/macbook.pdf)
+
+## 🎯 Learning Outcomes
+
+Through this project, I explored:
+
+* 3D Web Development with Three.js
+* React Three Fiber Ecosystem
+* GSAP Animation Workflows
+* Advanced React Component Design
+* Performance Optimization Techniques
+* Responsive UI Development
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes only.
+
+---
+
+## 👨‍💻 Author
+
+**Kaushtubh**
+
+If you like this project, consider giving it a ⭐ on GitHub.
