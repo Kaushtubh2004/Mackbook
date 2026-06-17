@@ -126,7 +126,7 @@ The website is fully responsive and optimized for:
 
 ## 📄 Project Screenshots
 
-[View Screenshots PDF](./public/screenshots/macbook.pdf)
+[View Screenshots PDF](./public/screenshots/mackbook.pdf)
 
 ## 🎯 Learning Outcomes
 
