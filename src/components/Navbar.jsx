@@ -1,20 +1,19 @@
-import {navLinks} from '../constants/index.js'
+import {navLinks} from "../constants";
 
-const Navbar = () => {
+const NavBar = () => {
     return (
         <header>
             <nav>
-                <img src="/logo.svg" alt="Apple logo" />
+                <img  src="/logo.svg" alt="Apple logo" />
 
                 <ul>
-                    {navLinks.map((label) => {
+                    {navLinks.map(({ label }) => (
                         <li key={label}>
-                            <a href={label}>
-                                {label}
-                            </a>
+                            <a href={label}>{label}</a>
                         </li>
-                    })}
+                    ))}
                 </ul>
+
                 <div className="flex-center gap-3">
                     <button>
                         <img src="/search.svg" alt="Search" />
@@ -27,5 +26,4 @@ const Navbar = () => {
         </header>
     )
 }
-
-export default Navbar
+export default NavBar
