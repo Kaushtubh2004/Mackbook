@@ -33,5 +33,10 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
     "vite": "^8.0.12"
-  }
+  },
+  "description": "A modern and interactive **MacBook Pro landing page clone** built with **React, Vite, Three.js, React Three Fiber, GSAP, and Tailwind CSS**. This project recreates Apple's premium product showcase experience with smooth animations, 3D models, responsive layouts, and high-performance rendering.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
